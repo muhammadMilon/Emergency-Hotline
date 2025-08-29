@@ -1,41 +1,49 @@
-
-
 body {
-            font-family: 'Hind Madurai', sans-serif;
-        }
-        .gradient-bg {
-            background: linear-gradient(90deg, rgba(1,50,35,1) 0%, rgba(0,103,71,1) 50%, rgba(1,50,35,1) 100%);
-        }
-        .card-hover {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        }
-        .heart-icon {
-            transition: color 0.3s ease, transform 0.2s ease;
-        }
-        .heart-icon:hover {
-            transform: scale(1.1);
-        }
-        .heart-icon.liked {
-            color: #ef4444;
-        }
-        .btn-primary {
-            background: #00a63e;
-            transition: background 0.3s ease;
-        }
-        .btn-primary:hover {
-            background: #008a33;
-        }
-        .btn-secondary {
-            border: 1px solid #d4d6d5;
-            transition: all 0.3s ease;
-        }
-        .btn-secondary:hover {
-            background: #f9fafb;
-        }
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgba(1, 50, 35, 1) 0%, rgba(0, 103, 71, 1) 50%, rgba(1, 50, 35, 1) 100%);
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.heart-icon {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.heart-icon:hover {
+  transform: scale(1.1);
+}
+
+.heart-icon.liked {
+  color: #ef4444;
+}
+
+.btn-primary {
+  background: #00a63e;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #008a33;
+}
+
+.btn-secondary {
+  border: 1px solid #d4d6d5;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #f9fafb;
+}
 
 :root {
   --body-2-font-family: "Roboto", Helvetica;
@@ -78,6 +86,7 @@ body {
   --title-1-line-height: normal;
   --white: rgba(255, 255, 255, 1);
 }
+
 :root {
   --animate-spin: spin 1s linear infinite;
 }
@@ -153,6 +162,7 @@ body {
 }
 
 @keyframes shimmer {
+
   0%,
   90%,
   to {
