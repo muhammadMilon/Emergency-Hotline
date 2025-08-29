@@ -1,4 +1,3 @@
-````markdown
 # 📘 Assignment-005
 
 This is my project submission for **Assignment-005**.  
