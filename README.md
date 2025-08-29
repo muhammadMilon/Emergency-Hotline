@@ -78,5 +78,3 @@ Event Delegation means attaching an event listener to a **parent element** to ha
 * HTML
 * CSS (**Tailwind CSS**)
 * JavaScript (**Vanilla JS**)
-
-```
